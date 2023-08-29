@@ -7,8 +7,8 @@ int main(){
 	char var_karakter = 'S'; 
 	
 	printf("bulat \t: %d\n", var_bulat);
-	printf("pecahan1 \t: %f\n", var_pecahan1);
-	printf("pecahan2 \t: %5.2lf\n", var_pecahan2);
+	printf("pecahan1 \t: %.7ff\n", var_pecahan1);
+	printf("pecahan2 \t: %.4e\n", var_pecahan2);
 	printf("karakter \t: %c\n", var_karakter);
 }
 
