@@ -6,12 +6,14 @@ int main(){
 	printf("Masukkan bilangan triangular : ");
 	scanf("%d", &bilangan);
 	
-	for(i = bilangan - 1; i > 0; i--){
+	for(i = bilangan; i > 0; i--){
 		bilangan += i;
 		printf("%d", i);
+		
+		if(i != 1) printf(" + ");
 	}
 	
-	printf("Hasil dari penjumlahan triangularnya adalah %d\n", bilangan);
+	printf("\nHasil dari penjumlahan triangularnya adalah %d\n", bilangan);
 }
 /*
 2. Hitunglah bilangan triangular dari masukan pengguna, yang dibaca dari keyboard 
