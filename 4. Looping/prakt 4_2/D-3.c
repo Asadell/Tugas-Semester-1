@@ -3,9 +3,9 @@
 int main(){
 	int bil, hasil = 0, i = 0, minn, max;
 	float ratarata;
-	char karakter;
+	char karakter = 'y';
 	
-	do{
+	while(karakter == 'y' || karakter == 'Y'){
 		printf("\nMasukkan bilangan ke-%d : ", i+1);
 		scanf("%d", &bil);
 		fflush(stdin); // PERLU
@@ -28,7 +28,7 @@ int main(){
 		
 		hasil += bil;
 		i++;
-	}while(karakter != 't');
+	}
 	
 	ratarata = hasil/i;
 	
